@@ -3,16 +3,8 @@ defmodule HappyBday do
   Documentation for `HappyBday`.
   """
 
-  @doc """
-  Hello world.
+  @doc
+  def happybday do
 
-  ## Examples
-
-      iex> HappyBday.hello()
-      :world
-
-  """
-  def hello do
-    :world
   end
 end
