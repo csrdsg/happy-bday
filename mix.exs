@@ -22,7 +22,9 @@ defmodule HappyBday.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:quantum, "~> 3.0"}
+      {:quantum, "~> 3.0"},
+      {:ecto_sql, "~> 3.2"},
+      {:postgrex, "~> 0.15"}
     ]
   end
 end

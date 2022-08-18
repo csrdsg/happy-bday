@@ -5,7 +5,8 @@ defmodule HappyBday.Application do
   @impl true
   def start(_type, _args) do
     children = [
-      HappyBday.Scheduler
+      HappyBday.Scheduler,
+      HappyBday.Repo
     ]
 
     opts = [strategy: :one_for_one, name: HappyBday.Supervisor]
