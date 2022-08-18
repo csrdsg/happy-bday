@@ -4,6 +4,7 @@ defmodule HappyBday do
   """
 
   @doc
+  @spec happybday :: nil
   def happybday do
 
   end
